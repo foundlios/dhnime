@@ -9,6 +9,7 @@ const app = express();
 
 // URL aplikasi Vercel
 const url = 'https://dhnime.vercel.app'; // URL Vercel-mu
+// const url = 'http://localhost:3000'; // Ubah ke localhost untuk pengujian lokal
 const port = process.env.PORT || 3000;
 
 // Set webhook
